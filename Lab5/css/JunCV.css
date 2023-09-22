@@ -1,0 +1,37 @@
+body {
+    font-family: monospace;
+    background-color: rgb(196, 211, 255);
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+ul {
+    font-size: 20px;
+}
+
+table {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#azul {
+    background-color:  rgb(154, 180, 255);
+}
+
+#oscuro {
+    background-color: 	rgb(96,126,201);
+}

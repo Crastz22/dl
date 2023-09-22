@@ -1,0 +1,39 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #049ce2;
+}
+
+header {
+    text-align: center;
+}
+
+#Titulo {
+    color: #171853;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: #D3E2DA;
+    font-size: 50px;
+}
+
+#Descripcion {
+    text-align: center;
+}
+
+.EP {
+    color: white;
+    background-color: #00ffff7c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    border-color: black;
+    border-style: double;
+}
+
+.Edu {
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+    border-radius: 30px;
+}
