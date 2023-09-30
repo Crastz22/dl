@@ -1,0 +1,284 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #203f6f;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    padding: 7px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-item {
+    padding: 7px;
+    color: white;
+    text-transform: initial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-item:hover {
+    background-color: rgba(40.2,45,67,.8);  
+    border-radius: 5px;
+}
+
+nav {
+    background-color: rgba(40,45,67,.8);
+}
+
+.flechita {
+    color: gray;
+    font-size: 25px;
+}
+
+.descarga {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+.descarga:hover{
+    background-color: rgb(36, 35, 35);
+}
+
+.img-chiquito {
+    vertical-align: middle;
+    width: 25px;
+}
+
+.contenedorfoot {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid #131928;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    background-color: #131928;
+    background-image: url("https://external-preview.redd.it/nUeOtbxfo9eoLcE1ZJDRBuzwPV041rYGOGSoZN2JfmI.jpg?auto=webp&s=3bd94d9a7a41c6f554f058328b23f261fa5a9be6");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+
+.logo2 {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+}
+
+.texto {
+    padding: 20px;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.texto2 {
+    padding: 20px;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    font-family: serif;
+}
+
+.texto3 {
+    padding: 20px;
+    text-align: left;
+    color: #B2BABB;
+    font-size: 30px;
+    font-family: serif;
+}
+.botones {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: left;
+}
+
+.boton {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.boton2 {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #EEEDEC;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.adicional {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #B2BABB
+}
+
+footer {
+    text-align: center;
+    background-color: #131928;
+    color: #00aeff;
+    padding: 10px;
+}
+
+.juegodes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section{
+    margin: 40px;
+    padding: 40px;
+    background-color: #0E2954;
+    
+}
+.subdivicion{
+    font-size: 45px;
+    color:white;
+}
+
+
+.item-de-jd {
+    padding: 40px;
+    color: blueviolet;
+    text-transform: uppercase;
+    flex: 1; 
+    text-align: center; 
+}
+
+.botonc{
+    height:  30px;
+    width: 85px;
+    background-color: gray;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
+
+.botoncito{
+    height:  30px;
+    width: 145px;
+    background-color: gray;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
+
+.item-de-jd:hover :first-child{
+    background-color: rgb(155, 154, 154);
+    border-radius: 10px;
+}
+
+.juegos{
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    padding: 10px;
+    width: 275px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.imga{
+    padding: 10px;
+    width: 275px;
+    height: 350px;
+    border-radius: 20px;
+    margin-right: 650px;
+}
+
+.contenedor:hover :first-child{
+    background-color:#73bccaaf;
+    border-radius: 20px;
+
+}
+
+.logos
+{
+  width: 30px ;
+  height: 30px;
+ color:rgb(155, 154, 154)
+}
+
+p,h3{
+    padding: 5px;
+    margin: 0px; 
+}
+
+p{
+    font-size: 12px;
+    color: rgb(155, 154, 154);
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+h2:hover :first-child{
+    background-color:#73bccaaf;
+    border-radius: 50px;
+}
+
+.bot{
+    height:  70px;
+    width: 400px;
+    background-color: #009FBD;
+    border-radius: 50px;
+    border: none ;
+    font-size: 30px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
