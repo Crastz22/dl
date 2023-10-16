@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tabla 3x11</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <table border="1" id="datosPokemon">
+        <th>Función</th>
+        <th>Ejemplo</th>
+        <th>Botón</th>
+        <tr>
+            <td>1.1. Cambiar el color de párrafo (uso de style)</td>
+            <td>
+                <p id="color">  NARANJA </p>
+            </td>
+            <td>
+                <button onclick="cambiarColor()">Cambiar Color</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>1.2. Añadir texto a un párrafo (uso de operadores)</td>
+            <td>
+                <p id="n_text"> </p>
+            </td>
+            <td>
+                <button onclick="crearTexto()">Agregar un texto</button>
+            </td>
+        </tr>
+
+        <tr>
+            
+                <td>1.3. Concatenar el valor de dos textos (uso de operadores)</td>
+                <td>
+                    <input type="text" id="nombreInput" value="Hola">
+                </td>
+                <td>
+                    <button onclick="addTexto()">Completar Texto</button>
+                </td>
+            
+        </tr>
+        <tr>
+            <td>1.4. Eliminar valores de una lista desplegable</td>
+            <td><select id="dropdown-list">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                </select></td>
+            <td>
+                <button onclick="removerOpcionDesplegable()">Eliminar Opción</button>
+            </td>
+        </tr>
+        <tr>
+            <td> 1.5. Un botón que me lleve a un video de YouTube
+
+            <td>
+                <p>Ver Video de YouTube</p>
+            </td>
+            <td> <button onclick="abrirVideoYoutube()">Ver Video de YouTube</button>
+
+            </td>
+        </tr>
+        <tr>
+            <td> 1.6. Mandar un mensaje al usuario con el nombre</td>
+            <td>
+                <p>Mostrar Alerta con Nombre</p>
+            </td>
+            <td> <button onclick="mostrarAlertaNombre()">Mostrar Alerta con Nombre</button></td>
+        </tr>
+        <tr>
+            <td> 1.7. Manda el nombre, a la consola de js del navegador </td>
+            <td>
+                <p>Mostrar en consola el nombre</p>
+            </td>
+            <td> <button onclick="imprimirConsola()">Mostrar en consola el nombre</button></td>
+        </tr>
+        <tr>
+            <td> 1.8. Un check, e imprimir su estado</td>
+            <td>
+                <p>Me gusta el lol</p>
+                <input type="checkbox" id="Checkbox">Si
+            </td>
+            <td> <button onclick="imprimirEstado()">Mostrar Estado del checkbox</button>
+                <div id="estado">Estado: </div>
+            </td>
+        </tr>
+        <tr>
+            <td> 1.9. Un radio e imprimir su estado </td>
+            <td>
+                <p>Fruta favorita</p>
+                <fieldset>
+                    <div>
+                      <input type="radio" id="Manzana" name="fruta" value="Manzana" checked/>
+                      <label for="Manzana">Manzana</label>
+                    </div>
+                  
+                    <div>
+                      <input type="radio" id="Pera" name="fruta" value="Pera" />
+                      <label for="Pera">Pera</label>
+                    </div>
+                  
+                    <div>
+                      <input type="radio" id="Mandarina" name="fruta" value="Mandarina"/>
+                      <label for="Mandarina">Mandarina</label>
+                    </div>
+                  </fieldset>
+            </td>
+            <td> <button onclick="imprimirRadio()">Mostrar la fruta marcada</button>
+                <div id="estado2">Estado: </div>
+            </td>
+        </tr>
+        <tr>
+            <td> 1.10 Una validación de un campo, si este es numero enviar un mensaje que solo se permiten teclas</td>
+            <td>
+                <p>Escribe un texto</p>
+                <input type="text" id="textoOwO">
+            </td>
+            <td> 
+                <button onclick="validarTexto()">Valida el texto</button>
+            </td>
+        </tr>
+
+        
+            <tr>
+                <th>Número</th>
+                <th>Nombre</th>
+                <th>Tipo(s)</th>
+            </tr>
+    </table>
+</body>
+
+</html>
