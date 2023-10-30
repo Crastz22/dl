@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nación Ajedrez</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header class="menu">
+        <img class="logo" src="Logo.jpg" alt="Nación Ajedrez Logo">
+        <nav>
+            <ul>
+                <li class="menu-item text-item">HOME</li>
+                <li class="menu-item text-item">EVENTOS</li>
+                <li class="menu-item text-item">TORNEOS</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner-login">
+        <section class="marco">
+            <img src="imagen.jpg" alt="Ajedrez Image">
+        </section>
+
+        <div class="contenedor-texto-form">
+            <h2 style="font-size: x-large;">Login</h2>
+            <div style="padding-bottom: 10px;">
+                <span id="bonito" style="display: none; color: rgb(146, 251, 146); font-size: large; font-family: 'Courier New', Courier, monospace;">Su Usuario está Correcto :3</span>
+                <input type="text" id="email" class="inputbonito" placeholder="Ingrese su Gmail">
+            </div>
+            <div style="padding-bottom: 10px;">
+                <span id="bonito2" style="display: none; color: rgb(146, 251, 146); font-size: large; font-family: 'Courier New', Courier, monospace;">Su Contraseña está Correcto :3</span>
+                <input type="password" id="password" class="inputbonito" placeholder="Ingrese su contraseña">
+            </div>
+            <div>
+                <button class="boton" id="mostrar" onclick="mostrar()">Mostrar Contraseña</button>
+            </div>
+            <div style="padding-top: 15px;">
+                <button class="boton" onclick="validacion()">Enviar</button>
+            </div>
+            <div style="padding-left: 50%;">
+                <div class="loader" id="loader"></div>
+            </div> 
+        </div>
+    </div>
+
+    <footer class="menu">
+        <section>
+            <img class="logo footer-logo" src="Logo.jpg" alt="Nación Ajedrez Logo">
+        </section>
+        <section class="creditos">
+            <h2 class="texth2">Créditos</h2>
+            <ul class="creditos ul">
+                <li class="creditos li">Josty Crastz</li>
+                <li class="creditos li">Rafael Cambell</li>
+                <li class="creditos li">Jun Cen</li>
+            </ul>
+        </section>
+        <section class="contacto">
+            <h2 class="texth2">Contactanos</h2>
+            <ul class="contacto ul">
+                <li class="contacto li">Correo: nacion.ajedrez@panam.k</li>
+                <li class="contacto li">Instagram: nacion.ajedrez.pty</li>
+                <li class="contacto li">Facebook: Nación Ajedrez</li>
+                <li class="contacto li">Teléfono: 6578-4578</li>
+            </ul>
+        </section>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

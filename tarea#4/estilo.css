@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #c3986b;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    background-color: #383a46;
+    padding: 10px 20px;
+}
+
+.banner-login {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 7px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.text-item {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.text-item:hover {
+    background-color: #383a46;
+    border-radius: 5px;
+}
+
+.marco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton:hover {
+    background-color: #ffffff;
+    color: #383a46;
+}
+
+.marco2 {
+    align-items: center;
+}
+
+.inputbonito {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contenedor-texto-form {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #383a46;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.creditos ul,
+.contacto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.creditos li,
+.contacto li {
+    margin-bottom: 10px;
+}
+
+.texth2 {
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    display: none;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
